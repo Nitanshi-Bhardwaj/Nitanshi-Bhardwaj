@@ -9,15 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="mailto:nb3308@columbia.edu">
-    <img src="https://img.shields.io/badge/Gmail-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nitanshi" />
-  </a>
-  <a href="https://www.linkedin.com/in/nitanshi-bhardwaj/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://nitanshi-bhardwaj.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-Explore%20My%20Work-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
+  <a href="mailto:nb3308@columbia.edu"><img src="./assets/contact-email.svg" width="31%" alt="Email" /></a>
+  <a href="https://www.linkedin.com/in/nitanshi-bhardwaj/"><img src="./assets/contact-linkedin.svg" width="31%" alt="LinkedIn" /></a>
+  <a href="https://nitanshi-bhardwaj.github.io/"><img src="./assets/contact-portfolio.svg" width="31%" alt="Portfolio" /></a>
 </p>
 
 ## About
@@ -88,6 +82,3 @@ current_focus = {
 }
 ```
 
-<p align="center">
-  <strong>Open to full-time AI/ML engineering, applied AI, and data science opportunities after graduation.</strong>
-</p>
