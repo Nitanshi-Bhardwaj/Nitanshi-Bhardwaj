@@ -1,34 +1,81 @@
 <p align="center">
   <a href="https://nitanshi-bhardwaj.github.io/">
-    <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0B1026,50:5B5FEF,100:00C2FF&height=185&section=header&text=Nitanshi%20Bhardwaj&fontSize=44&fontColor=FFFFFF&animation=twinkling&desc=AI%20Engineer%20%7C%20Columbia%20MS%20Data%20Science%20%7C%20GenAI%20%2B%20RAG&descSize=17&descAlignY=70" alt="Nitanshi Bhardwaj header" />
+    <img src="./assets/profile-header.svg" width="100%" alt="Nitanshi Bhardwaj | Applied AI and Machine Learning" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=22&pause=900&color=5B5FEF&center=true&vCenter=true&width=850&lines=Building+practical+AI+systems;LLM+applications%2C+RAG%2C+and+AI+automation;Model+evaluation+and+responsible+AI;Turning+research+ideas+into+usable+tools" alt="Typing animation" />
+  <strong>M.S. Data Science, Columbia University | Graduating December 2026</strong>
 </p>
 
 <p align="center">
   <a href="mailto:nb3308@columbia.edu">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Gmail-Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nitanshi" />
   </a>
   <a href="https://www.linkedin.com/in/nitanshi-bhardwaj/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://nitanshi-bhardwaj.github.io/">
-    <img src="https://img.shields.io/badge/Portfolio-View%20Work-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-Explore%20My%20Work-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 
----
-
 ## About
 
-I am a **Master's student in Data Science at Columbia University** focused on building reliable AI systems for real workflows. My work spans **Generative AI, machine learning, RAG, AI automation, model evaluation, explainable AI, and responsible AI**.
+I build AI applications that make complex workflows easier to use, evaluate, and trust. My experience spans **clinical workflow automation, retrieval augmented generation, LLM evaluation, explainable AI, and real-time data tools**.
 
-I enjoy taking ambiguous problems from idea to working prototype, especially when the system needs strong data handling, clear guardrails, human review, and measurable impact.
+I am especially interested in what makes AI useful beyond a demo: **grounding, evaluation, interpretability, reliable workflows, and thoughtful interfaces**. I enjoy taking ambiguous problems from an initial idea to a working system that connects models, data, and software.
 
----
+## Selected Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Nitanshi-Bhardwaj/Github-Issue-Triage-Agent">GitHub Issue Triage Agent</a></h3>
+<p>Retrieval augmented issue triage that suggests labels, severity, components, and potential duplicates. Combines similarity search with structured JSON outputs, a Streamlit interface, and a CLI workflow.</p>
+<p><code>Python</code> <code>FAISS</code> <code>sentence-transformers</code> <code>Pydantic</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Nitanshi-Bhardwaj/LLM-SQL-Agent-n8n">Conversational SQL Agent</a></h3>
+<p>A local text-to-SQL assistant for retail analytics. Connects natural language questions to MySQL through an n8n agent workflow, with Ollama inference, Docker deployment, and query guardrails.</p>
+<p><code>n8n</code> <code>MySQL</code> <code>Ollama</code> <code>Docker</code></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Nitanshi-Bhardwaj/CSV-OSC-DataPlayer">Data Player</a></h3>
+<p>Turns CSV and Excel data into tempo controlled Open Sound Control streams for data sonification. Built through Columbia's DSI Scholars program with playback controls and a defined message protocol.</p>
+<p><code>Python</code> <code>Streamlit</code> <code>OSC</code> <code>Data streaming</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/Nitanshi-Bhardwaj/LCA-Work-Visa-Trends">Work Visa Trends</a></h3>
+<p>Explores six years of United States Labor Condition Application data, connecting employer, occupation, wage, and geographic patterns through data cleaning and reproducible reporting.</p>
+<p><code>R</code> <code>Quarto</code> <code>Data analysis</code> <code>Visualization</code></p>
+</td>
+</tr>
+</table>
+
+**More to explore:** [Job Tracker](https://github.com/Nitanshi-Bhardwaj/Job-Tracker), a configurable job monitoring system using GitHub Actions and Telegram, and [Aspect Based Sentiment Analysis](https://github.com/Nitanshi-Bhardwaj/AspectBasedSentimentAnalysis), an NLP project analyzing sentiment toward specific aspects in restaurant reviews.
+
+## Research and Teaching
+
+- [**The Disagreement Dilemma in Explainable AI: Can Bias Reduction Bridge the Gap?**](https://doi.org/10.1007/s13198-025-02712-9)  
+  Co-authored research comparing LIME, SHAP, and ALE, with analysis of bias, fairness, and disagreement between explanation methods. Published in Springer.
+
+- [**Gesture Control for Enhanced Accessibility**](https://doi.org/10.1109/ICCDS64403.2025.11209599)  
+  Co-authored research on gesture and voice interfaces for accessible device control using computer vision and real-time hardware interaction. Published in IEEE ICCDS 2025.
+
+As a Teaching Assistant for **Ethical and Responsible AI** at Columbia University, I supported graduate students working with machine learning fairness, interpretation, and responsible AI concepts.
+
+## Toolkit
+
+| Area | Tools and methods |
+| --- | --- |
+| **Programming and data** | Python, SQL, R, Pandas, NumPy |
+| **Machine learning** | PyTorch, TensorFlow, scikit-learn, XGBoost |
+| **Generative AI** | RAG, embeddings, FAISS, Hugging Face, Ollama, prompt engineering, LLM evaluation |
+| **Applications and cloud** | AWS Bedrock, EC2, SageMaker, Docker, Git, Streamlit, n8n |
+| **Responsible AI** | Explainability, SHAP, LIME, ALE, fairness analysis, hallucination evaluation |
 
 ## Current Focus
 
@@ -37,78 +84,10 @@ current_focus = {
     "degree": "M.S. Data Science, Columbia University",
     "interests": ["Generative AI", "RAG", "LLM Evaluation", "AI Automation"],
     "building": ["AI tools", "agent workflows", "clinical workflow automation"],
-    "goal": "Create reliable AI systems that solve real problems"
+    "goal": "Build reliable AI systems that solve real problems"
 }
 ```
 
----
-
-## Featured Work
-
 <p align="center">
-  <a href="https://github.com/Nitanshi-Bhardwaj/Github-Issue-Triage-Agent">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nitanshi-Bhardwaj&repo=Github-Issue-Triage-Agent&theme=react&hide_border=true" alt="GitHub Issue Triage Agent" />
-  </a>
-  <a href="https://github.com/Nitanshi-Bhardwaj/LLM-SQL-Agent-n8n">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nitanshi-Bhardwaj&repo=LLM-SQL-Agent-n8n&theme=react&hide_border=true" alt="LLM SQL Agent" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Nitanshi-Bhardwaj/CSV-OSC-DataPlayer">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nitanshi-Bhardwaj&repo=CSV-OSC-DataPlayer&theme=react&hide_border=true" alt="CSV OSC Data Player" />
-  </a>
-  <a href="https://github.com/Nitanshi-Bhardwaj/LCA-Work-Visa-Trends">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nitanshi-Bhardwaj&repo=LCA-Work-Visa-Trends&theme=react&hide_border=true" alt="LCA Work Visa Trends" />
-  </a>
-</p>
-
-### Project Highlights
-
-- **Hallucination Detection and Selective Abstention:** inference-time LLM evaluation system using uncertainty signals, calibration, and abstention logic.
-- **GitHub Issue Triage Agent:** RAG-based triage assistant that classifies issues by label, severity, component, duplicates, and next steps.
-- **LLM SQL Agent:** text-to-SQL workflow using n8n, MySQL, Docker, Ollama, and query guardrails.
-- **Data Player:** real-time Python and Streamlit app that converts CSV or Excel data into Open Sound Control streams for data sonification.
-- **LCA Work Visa Trends:** analytics report exploring United States work visa patterns using government data, R, Quarto, and visualization.
-
----
-
-## Technical Toolkit
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,r,sql,c,matlab,pytorch,tensorflow,aws,azure,docker,git,github,mysql,sqlite,html,css,js" alt="Tech stack icons" />
-</p>
-
-**AI and ML:** PyTorch, TensorFlow, scikit-learn, XGBoost, Hugging Face, model evaluation  
-**GenAI:** LLMs, RAG, embeddings, FAISS, prompt engineering, text-to-SQL, agent workflows  
-**Cloud and Tools:** AWS Bedrock, EC2, SageMaker, Docker, Git, MySQL, Streamlit, n8n  
-**Data Science:** Python, SQL, R, Pandas, NumPy, statistics, EDA, visualization  
-
----
-
-## Research and Publications
-
-- [**Gesture Control for Enhanced Accessibility**](https://doi.org/10.1109/ICCDS64403.2025.11209599)  
-  Gesture and voice interface integrating computer vision and hardware control for accessibility applications. Published in IEEE ICCDS 2025.
-
-- [**The Disagreement Dilemma in Explainable AI: Can Bias Reduction Bridge the Gap?**](https://doi.org/10.1007/s13198-025-02712-9)  
-  Study of disagreement across LIME, SHAP, and ALE with fairness and bias analysis. Published in Springer International Journal of System Assurance Engineering and Management.
-
----
-
-## GitHub Activity
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nitanshi-Bhardwaj&show_icons=true&theme=react&hide_border=true" height="165" alt="GitHub stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitanshi-Bhardwaj&theme=react&hide_border=true" height="165" alt="GitHub streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitanshi-Bhardwaj&layout=compact&theme=react&hide_border=true" height="165" alt="Top languages" />
-</p>
-
----
-
-<p align="center">
-  <i>Building AI systems that are useful, reliable, and grounded in real-world needs.</i>
+  <strong>Open to full-time AI/ML engineering, applied AI, and data science opportunities after graduation.</strong>
 </p>
