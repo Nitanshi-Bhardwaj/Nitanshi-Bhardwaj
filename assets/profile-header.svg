@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="title desc">
+<title id="title">Nitanshi Bhardwaj | Applied AI and Machine Learning</title>
+<desc id="desc">Animated network illustration for an applied AI and machine learning profile.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B1026"/>
+    <stop offset="0.5" stop-color="#121A36"/>
+    <stop offset="1" stop-color="#111827"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#61E1CD"/>
+    <stop offset="0.5" stop-color="#7C83FF"/>
+    <stop offset="1" stop-color="#B4A4FF"/>
+    <animate attributeName="x1" values="0;1;0" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="1;0;1" dur="9s" repeatCount="indefinite"/>
+  </linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="0.9" fill="#8897B5" opacity="0.16"/>
+  </pattern>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <path id="route1" d="M737 64 L814 117 L908 60"/>
+  <path id="route2" d="M741 183 L814 117 L911 187"/>
+</defs>
+<rect x="0.5" y="0.5" width="999" height="239" rx="20" fill="url(#bg)" stroke="#273349"/>
+<rect x="676" y="16" width="306" height="208" rx="15" fill="url(#grid)"/>
+<rect x="42" y="39" width="30" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="84" y="45" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="2.1" fill="#9CAAC2">APPLIED AI / MACHINE LEARNING</text>
+<text x="40" y="118" font-family="Arial,Helvetica,sans-serif" font-size="52" font-weight="700" letter-spacing="-1.6" fill="#F4F7FC">Nitanshi Bhardwaj</text>
+<text x="43" y="155" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#BECAED">From research questions to working AI systems.</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="600">
+  <rect x="43" y="184" width="88" height="27" rx="13.5" fill="#193537"/><text x="61" y="202" fill="#92E7D5">Build</text>
+  <rect x="142" y="184" width="104" height="27" rx="13.5" fill="#26334B"/><text x="161" y="202" fill="#BBD4F6">Evaluate</text>
+  <rect x="257" y="184" width="115" height="27" rx="13.5" fill="#30294B"/><text x="277" y="202" fill="#D0C2FF">Interpret</text>
+</g>
+<g fill="none" stroke="#3B4B69" stroke-width="1.5">
+  <path d="M737 64L814 117 908 60M737 64L741 183 814 117 911 187M741 183L911 187 908 60M814 117L908 60" stroke-dasharray="6 8">
+    <animate attributeName="stroke-dashoffset" from="0" to="-56" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="814" cy="117" r="34" stroke="#695D9D">
+    <animate attributeName="r" values="32;37;32" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.65;1;0.65" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="814" cy="117" r="49" stroke="#30405C" stroke-dasharray="3 7">
+    <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 814 117" to="360 814 117" dur="18s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<g fill="#121C2E" stroke-width="2">
+  <circle cx="737" cy="64" r="12" stroke="#61E1CD"><animate attributeName="r" values="10;13;10" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="741" cy="183" r="9" stroke="#83BEEB"><animate attributeName="opacity" values="0.55;1;0.55" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle cx="908" cy="60" r="9" stroke="#B4A4FF"><animate attributeName="opacity" values="1;0.5;1" dur="5s" repeatCount="indefinite"/></circle>
+  <circle cx="911" cy="187" r="13" stroke="#B4A4FF"><animate attributeName="r" values="11;14;11" dur="3.8s" repeatCount="indefinite"/></circle>
+</g>
+<circle r="4" fill="#61E1CD" filter="url(#glow)">
+  <animateMotion dur="4.8s" repeatCount="indefinite"><mpath href="#route1"/></animateMotion>
+</circle>
+<circle r="4" fill="#B4A4FF" filter="url(#glow)">
+  <animateMotion dur="5.8s" repeatCount="indefinite" begin="-2s"><mpath href="#route2"/></animateMotion>
+</circle>
+<circle cx="814" cy="117" r="25" fill="#222B42"/>
+<path d="M804 111l-7 6 7 6m20-12 7 6-7 6m-8-14-4 16" fill="none" stroke="#BBEFE6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
