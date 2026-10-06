@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="96" viewBox="0 0 360 96">
+  <rect x="1.5" y="1.5" width="357" height="93" rx="21" fill="#111C2E" stroke="#31415A" stroke-width="3"/>
+  <g transform="translate(40 23)" fill="none" stroke="#63E4D2" stroke-width="3">
+    <circle cx="24" cy="24" r="22"/>
+    <path d="M2 24h44M24 2c8 8 12 15 12 22S32 38 24 46M24 2c-8 8-12 15-12 22s4 14 12 22M8 12h32M8 36h32"/>
+  </g>
+  <text x="109" y="59" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#F7F9FC">Portfolio</text>
+  <path d="M302 39h16v16M318 39l-19 19" fill="none" stroke="#A8B6CA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
