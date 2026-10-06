@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="96" viewBox="0 0 360 96">
+  <rect x="1.5" y="1.5" width="357" height="93" rx="21" fill="#111C2E" stroke="#31415A" stroke-width="3"/>
+  <g transform="translate(34 27)">
+    <path d="M0 8 7 3l16 12L39 3l7 5v32h-9V19L23 29 9 19v21H0z" fill="#4285F4"/>
+    <path d="M7 3 23 15 39 3v11L23 26 7 14z" fill="#EA4335"/>
+    <path d="M37 19 46 12v28h-9z" fill="#34A853"/>
+    <path d="M0 12 9 19v21H0z" fill="#4285F4"/>
+    <path d="M39 3l7 5-9 7z" fill="#FBBC04"/>
+  </g>
+  <text x="108" y="59" font-family="Arial,Helvetica,sans-serif" font-size="28" font-weight="700" fill="#F7F9FC">Email</text>
+  <path d="M302 39h16v16M318 39l-19 19" fill="none" stroke="#A8B6CA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
